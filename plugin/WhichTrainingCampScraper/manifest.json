@@ -1,0 +1,26 @@
+{
+  "name": "WhichTrainingCamp Scraper",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "WhichTrainingCamp scraping plugin.",
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": true
+  },
+  "browser_action": {
+    "default_title": "WhichTrainingCamp Scraper"
+  },
+  "permissions": [
+    "http://whichtrainingcamp.com/*",
+    "http://www.whichtrainingcamp.com/*",
+    "https://www.youtube-nocookie.com/*",
+    "notifications",
+          "webRequest",
+		  "webRequestBlocking",
+      "storage"
+  ],
+ "icons":{"48":"logo.png"},
+ "web_accessible_resources": []
+}
